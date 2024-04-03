@@ -1,0 +1,14 @@
+.underupperpiecharttext{
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.75rem;
+}
+
+.upperpietext{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 600;
+}

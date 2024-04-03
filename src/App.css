@@ -1,0 +1,95 @@
+.sidembarparnt{
+  width: 40%;
+  height: 100vh;
+}
+.rightsidebigparentforflex{
+  background-color: #f0eded;
+  height: 100vh;
+}
+
+.oneinforcardparentone{
+  width: 45%;
+}
+
+.anybodyhasddr{
+  padding-top: 1.5rem ;
+  padding-bottom: 1.5rem ;
+  max-height: 60vh;
+  width: 100%;
+}
+
+.biggrapgparent{
+  width: 60%;
+  border-radius: 1rem;
+}
+
+.piechartgrapghparent{
+  width: 30%;
+  border-radius: 1rem;
+}
+
+.loersubinforcards.flex.justify-evenly.flex-wrap {
+  gap: 2rem;
+}
+
+@media screen and (min-width:1024px) {
+  .sidembarparnt{
+    width: 22%;
+  }
+
+  .oneinforcardparentone{
+   width: 20%;
+  }
+
+
+}
+
+@media screen and (max-width:500px){
+  .oneinforcardparentone{
+    width: 80%;
+   }
+
+   .anybodyhasddr{
+    flex-direction: column;
+    gap: 2rem;
+   }
+
+   .biggrapgparent {
+    width: 90%;}
+
+    .anybodyhasddr{
+      align-items: center;
+    }
+
+    .piechartgrapghparent{
+      width: 90%;
+    }
+
+    .sidembarparnt{
+      width: 75%;
+    }
+}
+
+@media screen and (max-width:768px){
+  .biggrapgparent {
+    width: 90%;}
+
+    .anybodyhasddr{
+      align-items: center;
+    }
+
+    .piechartgrapghparent{
+      width: 90%;
+    }
+
+    .anybodyhasddr{
+      flex-direction: column;
+      gap: 2rem;
+     }
+}
+
+@media screen and (min-width:768px){
+  .sidembarparnt{
+    width: 22%;
+  }
+}

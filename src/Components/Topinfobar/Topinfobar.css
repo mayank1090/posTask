@@ -1,0 +1,22 @@
+.anyhands {
+    color: rgb(224, 180, 127);
+}
+
+.anyhands,
+.searchiconforrightsearchbar,
+.hellousertext {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.righttopbarparent{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.searchbaroftopright{
+    background: transparent;
+}
